@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """A Basic Flask app with Babel for internationalization.
 """
-from flask_babel import Babel, _
+from flask_babel import Babel, gettext
 from flask import Flask, render_template, request
 
 
