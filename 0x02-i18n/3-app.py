@@ -11,6 +11,7 @@ class Config:
     This class sets the available languages, default locale, and default
     timezone for the Flask application.
     """
+    DEBUG = True
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
